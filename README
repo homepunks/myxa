@@ -1,1 +1,10 @@
-Sickrat that reads from stdin.
+For now, myxa's there to read from stdin 
+and save the read plaintext into the clipboard.
+The capabilities are expected to be expanded as
+the needs grow.
+
+
+Use:
+     $ cargo build
+     $ cp /target/debug/myxa /usr/local/bin/myxa
+     $ cat your_important_text.txt | myxa
